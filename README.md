@@ -11,7 +11,8 @@ All aBout Coin
 4. FrontEnd : React 기반으로 구현할 에정이긴 하다
 
 ## Reference
++ Ubuntu 환경에 있는 python버전 변경하기 (https://seongkyun.github.io/others/2019/05/09/ubuntu_python)
 
 ## Record
 ### 2021-03-18
-+ AWS 환경에 있던 docker에 python 설치 및 서버 구동 확인
++ 기존 AWS EC2 인스턴스에 있던 Ubuntu환경에 python 버전 변경 및 Django 설치 후 퍼블릭 IP 및 로컬 개발환경 연결 확인
