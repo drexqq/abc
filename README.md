@@ -16,3 +16,11 @@ All aBout Coin
 ## Record
 ### 2021-03-18
 + 기존 AWS EC2 인스턴스에 있던 Ubuntu환경에 python 버전 변경 및 Django 설치 후 퍼블릭 IP 및 로컬 개발환경 연결 확인
+
+
+### 시작방법
+기본적으로 python3.7버전이 설치되어 있어야함
+1. git clone https://github.com/drexqq/abc
+2. cd abc_com
+3. python manage.py runserver
+4. localhost 또는 127.0.0.1 8000번 포트에서 
