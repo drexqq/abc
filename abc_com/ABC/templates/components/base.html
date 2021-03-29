@@ -1,0 +1,22 @@
+<!-- prettier-ignore -->
+{% load static %}
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- css -->
+        <link rel="stylesheet" href="{% static 'css/reset.css' %}" />
+        <link rel="stylesheet" href="{% static 'css/components.css' %}">
+
+        <title>ABC</title>
+    </head>
+    <header id="header">This is header</header>
+    <main id="main">
+        {% block content %}
+        {% endblock %}
+    </main>
+    <footer id="footer">This is footer</footer>
+</html>

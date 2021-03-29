@@ -1,0 +1,30 @@
+/*---------header start---------*/
+#header {
+    height: 80px;
+    background-color: red;
+}
+/*---------header end---------*/
+/*---------footer start---------*/
+#footer {
+    height: 200px;
+    background-color: blue;
+}
+/*---------footer end---------*/
+/*---------main start---------*/
+#main {
+}
+#main .article {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #f2f2f2;
+}
+#main .coinList {
+}
+#main .sns {
+}
+#main .board {
+}
+#main .notice {
+}
+/*---------main end---------*/
