@@ -1,8 +1,59 @@
 {% extends 'components/base.html' %} {% block content %}
 
-<section class="article coinList">Coin List section</section>
-<section class="article sns">Sns section</section>
-<section class="article board">Board section</section>
-<section class="article notice">Notice section</section>
+<section class="article">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <ul class="cointab clearfix">
+                    <li class="coin_name">코인명<i class="fa fa-caret-down" aria-hidden="true"></i></li>
+                    <li class="coin_price">현재가<i class="fa fa-caret-down" aria-hidden="true"></i></li>
+                    <li class="coin_change">전일 대비<i class="fa fa-caret-down" aria-hidden="true"></i></li>
+                    <li class="coin_closing">전일 종가<i class="fa fa-caret-down" aria-hidden="true"></i></li>
+                    <li class="coin_high">당일 고가<i class="fa fa-caret-down" aria-hidden="true"></i></li>
+                    <li class="coin_low">당일 저가<i class="fa fa-caret-down" aria-hidden="true"></i></li>
+                    <li class="coin_amount">거래대금<i class="fa fa-caret-down" aria-hidden="true"></i></li>
+                    <li class="coin_value">시가총액<i class="fa fa-caret-down" aria-hidden="true"></i></li>
+                </ul>
+                <div class="coinlist clearfix">
+                    <div class="coin">
+                        <div class="coin_name">
+                            <span class="icon"><img src="" alt="" /></span> 비트코인<small>BTC</small>
+                        </div>
+                        <div class="coin_price">100,000,000<i class="fa fa-krw" aria-hidden="true"></i></div>
+                        <div class="coin_change">1,000<i class="fa fa-percent" aria-hidden="true"></i></div>
+                        <div class="coin_closing">75,000,000<i class="fa fa-krw" aria-hidden="true"></i></div>
+                        <div class="coin_high">200,000,000<i class="fa fa-krw" aria-hidden="true"></i></div>
+                        <div class="coin_low">72,000,000<i class="fa fa-krw" aria-hidden="true"></i></div>
+                        <div class="coin_amount">300,000,000,000<i class="fa fa-krw" aria-hidden="true"></i></div>
+                        <div class="coin_value">1000,000,000,000<i class="fa fa-krw" aria-hidden="true"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="article">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="sns"></div>
+            </div>
+            <div class="col-6">
+                <div class="board"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="article">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="notice"></div>
+            </div>
+        </div>
+    </div>
+</section>
 
 {% endblock %}

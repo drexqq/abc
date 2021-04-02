@@ -1,30 +1,121 @@
 /*---------header start---------*/
 #header {
-    height: 80px;
-    background-color: red;
+    height: 60px;
+}
+#header .logo {
+    float: left;
+}
+#header .menu {
+    float: left;
+}
+#header .menu li {
+    float: left;
+}
+#header .util {
+    float: right;
+}
+#header .util li {
+    float: left;
 }
 /*---------header end---------*/
 /*---------footer start---------*/
 #footer {
-    height: 200px;
-    background-color: blue;
 }
 /*---------footer end---------*/
 /*---------main start---------*/
 #main {
 }
-#main .article {
-    border: 1px solid #000;
-    border-radius: 5px;
-    padding: 15px;
-    background-color: #f2f2f2;
+/*==========coin tab==========*/
+#main .cointab {
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    min-height: 40px;
 }
-#main .coinList {
+#main .cointab li {
+    float: left;
+    font-size: 0.85rem;
+    padding: 0.75rem 0.5rem;
+    cursor: pointer;
+    border-right: 1px solid #eeeeee;
 }
-#main .sns {
+#main .cointab li:last-child {
+    border: 0;
 }
-#main .board {
+#main .cointab li i {
+    padding-left: 0.5rem;
+    font-size: 0.8rem;
 }
-#main .notice {
+#main .cointab .coin_name {
+    width: 16%;
 }
+#main .cointab .coin_price {
+    width: 11%;
+}
+#main .cointab .coin_change {
+    width: 9%;
+}
+#main .cointab .coin_closing {
+    width: 11%;
+}
+#main .cointab .coin_high {
+    width: 11%;
+}
+#main .cointab .coin_low {
+    width: 11%;
+}
+#main .cointab .coin_amount {
+    width: 15%;
+}
+#main .cointab .coin_value {
+    width: 16%;
+}
+/*==========coin tab==========*/
+
+/*==========coin list==========*/
+#main .coinlist {
+}
+#main .coinlist .coin {
+    min-height: 50px;
+    font-size: 0.85rem;
+}
+#main .coinlist .coin i {
+    padding-left: 0.2rem;
+    font-size: 0.6rem;
+}
+#main .coinlist .coin > div {
+    float: left;
+    padding: 0.75rem 0.5rem;
+}
+#main .coinlist .coin .coin_name {
+    width: 16%;
+}
+#main .coinlist .coin .coin_name .icon {
+}
+#main .coinlist .coin .coin_name small {
+    padding-left: 1rem;
+    font-size: 0.6rem;
+    color: #999;
+}
+#main .coinlist .coin .coin_price {
+    width: 11%;
+}
+#main .coinlist .coin .coin_change {
+    width: 9%;
+}
+#main .coinlist .coin .coin_closing {
+    width: 11%;
+}
+#main .coinlist .coin .coin_high {
+    width: 11%;
+}
+#main .coinlist .coin .coin_low {
+    width: 11%;
+}
+#main .coinlist .coin .coin_amount {
+    width: 15%;
+}
+#main .coinlist .coin .coin_value {
+    width: 16%;
+}
+/*==========coin list==========*/
 /*---------main end---------*/

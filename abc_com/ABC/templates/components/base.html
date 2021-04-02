@@ -9,14 +9,43 @@
 
         <!-- css -->
         <link rel="stylesheet" href="{% static 'css/reset.css' %}" />
-        <link rel="stylesheet" href="{% static 'css/components.css' %}">
+        <link rel="stylesheet" href="{% static 'css/grid.css' %}" />
+        <link rel="stylesheet" href="{% static 'css/components.css' %}" />
+
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700&display=swap" rel="stylesheet" />
+
+        <!-- fontawesome -->
+        <script src="https://use.fontawesome.com/610dd1ee0b.js"></script>
 
         <title>ABC</title>
     </head>
-    <header id="header">This is header</header>
-    <main id="main">
-        {% block content %}
-        {% endblock %}
-    </main>
-    <footer id="footer">This is footer</footer>
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="logo">ABC</h1>
+                    <ul class="menu">
+                        <li><a href="">메뉴1</a></li>
+                        <li><a href="">메뉴2</a></li>
+                        <li><a href="">메뉴3</a></li>
+                        <li><a href="">커뮤니티</a></li>
+                    </ul>
+                    <ul class="util">
+                        <li><a href="">로그인</a></li>
+                        <li><a href="">가입하기</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main id="main">{% block content %} {% endblock %}</main>
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">This is footer</div>
+            </div>
+        </div>
+    </footer>
 </html>

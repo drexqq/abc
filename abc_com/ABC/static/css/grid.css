@@ -1,0 +1,88 @@
+@charset "UTF-8";
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.container {
+    max-width: 1440px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row {
+    display: block;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.container:after,
+.container:before,
+.row:after,
+.row:before {
+    content: "";
+    display: block;
+    clear: both;
+}
+.col-12 {
+    width: 100%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-12,
+.col-3,
+.col-6 {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-height: 1px;
+}
+.only-tb {
+    display: none;
+}
+.only-mb {
+    display: none;
+}
+/* -------Only Desktop---------- */
+@media all and (max-width: 1024px) {
+}
+
+/* -------Only Tablet---------- */
+@media all and (max-width: 1023px) {
+    .container {
+        max-width: 720px;
+    }
+    .only-pc {
+        display: none;
+    }
+    .only-tb {
+        display: block;
+    }
+}
+
+/* -------Only Mobile---------- */
+@media all and (max-width: 767px) {
+    .container {
+        max-width: 540px;
+    }
+    .only-tb {
+        display: none;
+    }
+    .only-mb {
+        display: block;
+    }
+}
+
+/* under 320px all display none */
+@media all and (max-width: 319px) {
+    html {
+        display: none;
+    }
+}
+
+/* ////// */
