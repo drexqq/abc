@@ -16,6 +16,9 @@ All aBout Coin
 ## Reference
 
 -   Ubuntu 환경에 있는 python버전 변경하기 (https://seongkyun.github.io/others/2019/05/09/ubuntu_python)
+-   Fontawesome (https://fontawesome.com/v4.7.0/)
+-   Google Fonts (https://fonts.google.com/)
+-   Crypto List API (https://www.coingecko.com/ko)
 
 ## Record
 
@@ -27,6 +30,12 @@ All aBout Coin
 
 -   기존 test app 제거 및 실제 작업할 ABC app 생성
 -   template, static 적용
+
+### 2021-04-02
+
+-   기본적인 grid system 적용, components setting
+-   Coingecko API 사용법 숙지 및 연동 여부확인 (https://www.coingecko.com/ko)
+-   main page coinlist section wireframe setting
 
 ### 시작방법
 
