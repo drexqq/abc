@@ -1,4 +1,4 @@
-{% extends 'components/base.html' %} {% block content %}
+{% extends 'components/base.html' %} {% load static %} {% block content %}
 
 <section class="article">
     <div class="container">
@@ -16,8 +16,10 @@
                 </ul>
                 <div class="coinlist clearfix">
                     <div class="coin">
-                        <div class="coin_name">
-                            <span class="icon"><img src="" alt="" /></span> 비트코인<small>BTC</small>
+                        <div class="coin_name clearfix">
+                            <span class="icon"><img src="{% static 'coin/btc.png' %}" alt="" /></span>
+                            <span class="name">비트코인</span>
+                            <small>BTC</small>
                         </div>
                         <div class="coin_price">100,000,000<i class="fa fa-krw" aria-hidden="true"></i></div>
                         <div class="coin_change">1,000<i class="fa fa-percent" aria-hidden="true"></i></div>
